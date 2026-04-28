@@ -1,0 +1,6 @@
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+startCommand = "python -m bot.main"
+restartPolicyType = "ON_FAILURE"
