@@ -1,9 +1,6 @@
-import asyncio
-import os
-import logging
-from bot.api import CoCAPI
-from bot.farmer import Farmer
-from bot.dashboard import run_dashboard
+from api import CoCAPI
+from farmer import Farmer
+from dashboard import run_dashboard
 
 logging.basicConfig(
     level=os.getenv("LOG_LEVEL", "INFO"),
