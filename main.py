@@ -1,3 +1,6 @@
+import asyncio
+import os
+import logging
 from api import CoCAPI
 from farmer import Farmer
 from dashboard import run_dashboard
