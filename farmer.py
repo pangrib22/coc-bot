@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from datetime import datetime
-from bot.api import CoCAPI
+from api import CoCAPI
 
 log = logging.getLogger("farmer")
 
